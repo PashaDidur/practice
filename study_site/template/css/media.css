@@ -1,0 +1,292 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.s_tizers strong {
+		font-size: 18px;
+	}
+
+	.s_tizers span {
+		font-size: 14px;
+		line-height: 25px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.fourth_profi_item div {
+    	margin-bottom: 30px;
+	}
+
+	.s_tizers strong {
+		font-size: 25px;
+	}
+
+	.tizer_descr {
+		padding-left: 100px;
+		text-align: center;
+	}
+
+	.tizer_item {
+		background-position: 60px -5px;
+	}
+
+	.second_tizer_item {
+		background-position: 50px -90px;
+	}
+
+	.third_tizer_item {
+		background-position: 65px -175px;
+	}
+
+	.fourth_tizer_item {
+		background-position: 50px -260px;
+	}
+
+	.tab_content ul li:nth-child(2) {
+  	background-position: 0 -105px; }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_phone, .logo, .top_header h1, .top_header h2 {
+		text-align: center;
+	}
+
+	.logo {
+		margin-bottom: 15px;
+	}
+
+	.top_phone .tab_item {
+		font-size: 30px;
+	}
+	
+	.s_tizers .row div {
+		text-align: left;
+	}
+
+	.s_contacts h2 {
+		margin-bottom: 20px;
+	}
+
+	.tizer_descr {
+		padding-left: 100px;
+	}
+
+	.tizer_item {
+		background-position: 60px -5px;
+	}
+
+	.second_tizer_item {
+		background-position: 60px -90px;
+	}
+
+	.third_tizer_item {
+		background-position: 60px -175px;
+	}
+
+	.fourth_tizer_item {
+		background-position: 60px -260px;
+	}
+
+	.tab_content ul li:nth-child(3) {
+  	background-position: 0 -200px;
+  	padding-top: 5px; }
+
+  	.profi_text h3 {
+    font-size: 25px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_header {
+		margin-top: 30px;
+	}
+
+	.top_header h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.top_header h2 {
+		font-size: 28px;
+	}	
+
+	.tabs_header .tabs .tab {
+		font-size: 14px;
+	}
+
+	.button_wrap {
+		text-align: center;
+	}
+	
+	.s_contacts .tabs .tab {
+		padding: 0 20px;
+	}
+
+	.s_tizers strong {
+		font-size: 16px;
+	}
+
+	.tizer_descr {
+		padding-left: 90px;
+	}
+
+	.tizer_item {
+		background-position: 55px -5px;
+	}
+
+	.second_tizer_item {
+		background-position: 55px -90px;
+	}
+
+	.third_tizer_item {
+		background-position: 55px -175px;
+	}
+
+	.fourth_tizer_item {
+		background-position: 55px -260px;
+	}
+	
+	.tab_content ul li:nth-child(1) {
+  	background-position: 0 5px;
+  	padding-bottom: 10px; }
+
+.tab_content ul li:nth-child(2) {
+  	background-position: 0 -100px; }
+
+.tab_content ul li:nth-child(3) {
+  	background-position: 0 -200px;
+  	padding-top: 5px; }
+	
+	.profi_text h3 {
+		font-size: 20px;
+	}
+
+	.s_profi h2 {
+		font-size: 42px;
+	}
+
+	.s_profi form h2 {
+		font-size: 25px;
+	}
+
+	.s_back h3 {
+		font-size: 19px;
+	}
+
+	.contacts_top h2,
+	footer h2 {
+		font-size: 45px;
+	}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.tizer_descr {
+		padding-left: 50px;
+	}
+
+	.tizer_item {
+		background-position: 25px -5px;
+	}
+
+	.second_tizer_item {
+		background-position: 25px -90px;
+	}
+
+	.third_tizer_item {
+		background-position: 25px -175px;
+	}
+
+	.fourth_tizer_item {
+		background-position: 25px -260px;
+	}
+
+	.s_tizers span {
+		font-size: 13px;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.tab_content ul li:nth-child(2) {
+  	background-position: 0 -105px; }
+}
+
+ /* Own media-request for screen */
+@media (max-height : 780px) and (min-width : 1400px) {
+
+	header {
+		position: relative;
+	}
+
+	.tabs_header {
+		position: absolute;
+		bottom: 60px;
+	}
+
+	.tabs_header > div {
+		width: 100%;
+		max-width: 660px;
+		position: absolute;
+		bottom: 60px;
+	}
+
+	.top_header {
+		margin-top: 150px;
+	}
+} 
+
+/* Own media-request for screen */
+@media only screen and (max-width : 600px) {
+	.tizer_descr {
+		padding-left: 75px;
+	}
+
+	.tizer_item {
+		background-position: 55px -5px;
+	}
+
+	.second_tizer_item {
+		background-position: 55px -90px;
+	}
+
+	.third_tizer_item {
+		background-position: 55px -175px;
+	}
+
+	.fourth_tizer_item {
+		background-position: 55px -260px;
+	}
+} 
+
+
